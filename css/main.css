@@ -19,7 +19,7 @@ body .header .header-container .header-container-list {
   display: inline-block;
 }
 body .header .header-container .header-container-nav {
-  wrap-option: nowrap;
+  white-space: nowrap;
 }
 body .header .header-container .header-container-nav .header-container-nav-address {
   display: inline-block;
@@ -42,7 +42,7 @@ body .header .header-container .header-container-nav .header-container-nav-list 
   margin: 0;
   padding: 0;
   list-style: none;
-  wrap-option: nowrap;
+  white-space: nowrap;
 }
 body .header .header-container .header-container-nav .header-container-nav-list li {
   list-style: none;
@@ -178,6 +178,7 @@ body .body .body-content-container1 .body-content-container1-column .body-conten
   outline-style: none;
   color: #3d3838;
   font-size: 22px;
+  margin: 0 10px;
 }
 body .body .body-content-container1 .body-content-container1-column .body-content-container1-classify ul .body-content-container1-classify-more {
   position: absolute;

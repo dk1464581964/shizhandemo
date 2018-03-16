@@ -1,0 +1,233 @@
+body .body .body-content {
+  background-color: #fff;
+  width: 100%;
+  height: 200px;
+}
+body .body .body-content .body-content-header {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 90px;
+  overflow: hidden;
+}
+body .body .body-content .body-content-header .body-content-header-logo {
+  float: left;
+}
+body .body .body-content .body-content-header .body-content-header-logo span {
+  font-weight: 700;
+  font-size: 36px;
+  color: #333;
+  padding: 30px 0 0 20px;
+}
+body .body .body-content .body-content-header .body-content-header-time {
+  display: inline-block;
+  margin-left: 10px;
+  float: left;
+}
+body .body .body-content .body-content-header .body-content-header-time div {
+  display: inline-block;
+  margin: 10px 0 0 10px;
+}
+body .body .body-content .body-content-header .body-content-header-time .body-content-header-time-businesstime {
+  width: 80px;
+}
+body .body .body-content .body-content-header .body-content-header-evaluate {
+  float: right;
+  top: 100px;
+}
+body .body .body-content .body-content-header .body-content-header-evaluate span {
+  position: relative;
+  top: -15px;
+}
+body .body .body-content .body-content-header .body-content-header-evaluate div {
+  display: inline-block;
+}
+body .body .body-content .body-content-header .body-content-header-evaluate div div {
+  display: block;
+  margin: 5px 5px 0;
+}
+body .nav {
+  width: 100%;
+  background-color: #333;
+}
+body .nav .nav-content {
+  line-height: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+body .nav .nav-content div {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0 10px;
+}
+body .nav .nav-content div a {
+  font-weight: 700;
+  cursor: pointer;
+  color: white;
+}
+body .present .present-content {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 22px;
+}
+body .present .present-content .present-content-container .present-content-container-project {
+  width: 80%;
+  background-color: #fff;
+}
+body .present .present-content .present-content-container .present-content-container-project .present-content-container-project-fuwu {
+  margin: 0 auto;
+  width: 95%;
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 60px;
+}
+body .present .present-content .present-content-container .present-content-container-project .present-content-container-project-fuwu a {
+  display: inline-block;
+  color: #121212;
+  cursor: pointer;
+  border-bottom: 4px solid #fb474f;
+}
+body .present .present-content .present-content-container .present-content-container-project .present-content-container-project-lanmu-father {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+}
+body .present .present-content .present-content-container .present-content-container-project .present-content-container-project-lanmu-father .present-content-container-project-lanmu {
+  width: 95%;
+  margin: 0 auto;
+}
+body .present .present-content .present-content-container .present-content-container-project .present-content-container-project-lanmu-father .present-content-container-project-lanmu .present-content-container-project-img {
+  display: inline-block;
+  width: 148px;
+  padding: 25px 25px 25px 0;
+}
+body .present .present-content .present-content-container .present-content-container-project .present-content-container-project-lanmu-father .present-content-container-project-lanmu .present-content-container-project-img img {
+  width: 100%;
+}
+body .present .present-content .present-content-container .present-content-container-project .present-content-container-project-lanmu-father .present-content-container-project-lanmu .present-content-container-project-work {
+  display: inline-block;
+  width: auto;
+}
+body .present .present-content .present-content-container .present-content-container-project .present-content-container-project-lanmu-father .present-content-container-project-lanmu .present-content-container-project-work .present-content-container-project-h1 {
+  display: block;
+  height: 48px;
+  line-height: 48px;
+  margin-bottom: 15px;
+}
+body .present .present-content .present-content-container .present-content-container-project .present-content-container-project-lanmu-father .present-content-container-project-lanmu .present-content-container-project-work .present-content-container-project-h1 a {
+  font-size: 18px;
+  color: #1d1515;
+}
+body .present .present-content .present-content-container .present-content-container-project .present-content-container-project-lanmu-father .present-content-container-project-lanmu .present-content-container-project-work .present-content-container-project-h2 {
+  width: 64%;
+  color: #929292;
+  height: 48px;
+  line-height: 48px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 25px;
+}
+body .present .present-content .present-content-container .present-content-container-project .present-content-container-project-lanmu-father .present-content-container-project-lanmu .present-content-container-project-work .present-content-container-project-h3 div {
+  display: inline-block;
+}
+body .present .present-content .present-content-container .present-content-container-project .present-content-container-project-lanmu-father .present-content-container-project-lanmu .present-content-container-project-work .present-content-container-project-h3 .present-content-container-project-h3-1 {
+  margin-left: 10px;
+  color: #fc545e;
+}
+body .present .present-content .present-content-container .present-content-container-project .present-content-container-project-lanmu-father .present-content-container-project-lanmu .present-content-container-project-work .present-content-container-project-h3 .present-content-container-project-h3-2 {
+  margin-left: 10px;
+  color: #898989;
+}
+body .present .present-content .present-content-container .present-content-container-project .present-content-container-project-lanmu-father .present-content-container-project-lanmu .present-content-container-project-work .present-content-container-project-h3 .present-content-container-project-h3-3 {
+  margin-left: 65%;
+  color: #898989;
+}
+body .present .present-content .present-content-container .present-content-container-project .present-content-container-project-lanmu-father:hover {
+  background-color: #f5f5f5;
+}
+body .present .present-content .present-content-container .present-content-container-syn {
+  background-color: #fff;
+  width: 80%;
+  margin-top: 87px;
+}
+body .present .present-content .present-content-container .present-content-container-syn .present-content-container-syn-h1 {
+  margin: 0 auto;
+  width: 95%;
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 60px;
+}
+body .present .present-content .present-content-container .present-content-container-syn .present-content-container-syn-h1 a {
+  display: inline-block;
+  color: #121212;
+  cursor: pointer;
+  border-bottom: 4px solid #fb474f;
+}
+body .present .present-content .present-content-container .present-content-container-syn .present-content-container-syn-h2 {
+  margin: 0 auto 5px;
+  width: 95%;
+  height: 48px;
+  line-height: 48px;
+}
+body .present .present-content .present-content-container .present-content-container-syn .present-content-container-syn-h2 div {
+  display: inline-block;
+  padding-top: 5px;
+  margin-left: 5px;
+}
+body .present .present-content .present-content-container .present-content-container-syn .present-content-container-syn-h2 span {
+  display: inline-block;
+  font-size: 18px;
+}
+body .present .present-content .present-content-container .present-content-container-syn .present-content-container-syn-h3 {
+  width: 95%;
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 28px;
+  margin: 10px 25px 25px;
+  font-size: 16px;
+}
+body .present .present-content .present-content-container .present-content-container-right {
+  display: inline-block;
+  width: 20%;
+  position: absolute;
+  left: 78%;
+  top: 272px;
+}
+body .present .present-content .present-content-container .present-content-container-right .present-content-container-code .present-content-container-code-img2 {
+  position: absolute;
+  z-index: 2;
+  left: 57px;
+  top: 57px;
+}
+body .present .present-content .present-content-container .present-content-container-right .present-content-container-code .present-content-container-code-img4 {
+  position: absolute;
+  z-index: 2;
+  left: 57px;
+  top: 349px;
+}
+body .present .present-content .present-content-container .present-content-container-right .present-content-container-code .present-content-container-code-img4 img {
+  width: 115px;
+}
+body .assess .assess-content {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 22px;
+}
+body .assess .assess-content .assess-content-eva {
+  width: 80%;
+  background-color: #fff;
+}
+body .assess .assess-content .assess-content-eva .assess-content-eva-assess {
+  width: 95%;
+  margin: 0 auto;
+}
+body .assess .assess-content .assess-content-eva .assess-content-eva-assess .assess-content-eva-assess-header {
+  color: #121212;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 60px;
+}
+body .assess .assess-content .assess-content-eva .assess-content-eva-assess .assess-content-eva-assess-header .assess-content-eva-assess-header-1 {
+  display: inline-block;
+  border-bottom: 4px solid #fb474f;
+}
+body .assess .assess-content .assess-content-eva .assess-content-eva-assess .assess-content-eva-assess-header .assess-content-eva-assess-header-2 {
+  display: inline-block;
+  margin-left: 10px;
+}
