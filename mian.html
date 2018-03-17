@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-<body>
 <head>
   <meta charset="UTF-8">
   <title>到位APP - 高品质上门服务直约平台，家政服务，上门按摩，上门维修，搬家，安心到家！</title>
@@ -9,6 +7,7 @@
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/lunbotu.css">
 </head>
+<body>
   <header class="header">
     <div class="header-container">
       <div class="header-container-logo header-container-list">
@@ -149,6 +148,7 @@
         </ul>
       </div>
     </div>
+
     <div class="body-content-container1">
       <div class="body-content-container1-column">
         <div class="body-content-container1-generic"><a href="#">家庭保洁</a></div>
@@ -288,4 +288,15 @@
 </body>
 <script src="./js/jquery-1.11.1.js" type="text/javascript"></script>
 <script src="./js/main.js" type="text/javascript"></script>
+<script type="text/javascript" src="./js/template-web.js"></script>
+<script id="htmljq" type="text/html">
+  {{each data.list}}
+</script>
+<script>
+  $(function () {
+    $.get('/shoplist',function (data) {
+
+    })
+  })
+</script>
 </html>
