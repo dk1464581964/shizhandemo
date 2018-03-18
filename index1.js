@@ -33,13 +33,11 @@ app.get('/yunjiazheng1list',function (req,res) {
 })
 
 app.get('/yunjiazheng2list',function (req,res) {
-  var page = req.query.page
-  yunjiazheng2.find({}).limit(10).skip((page-1)*10).exec(function (err,data) {
-
-      res.send({data:data})
-
+  yunjiazheng2.find({},function (err,list) {
+    res.send({list:list})
   })
 })
+
 
 
 app.listen(3000)

@@ -75,6 +75,20 @@ body .body .body-carousel .body-carousel-nav2 {
 body .body .body-carousel .body-carousel-nav2 > ul {
   display: none;
 }
+body .body .body-carousel .body-carousel-nav2 > ul > li {
+  width: 180px;
+  height: 10%;
+  list-style: none;
+  cursor: pointer;
+}
+body .body .body-carousel .body-carousel-nav2 > ul > li a {
+  display: inline-block;
+  font-weight: 700;
+  color: #fff;
+  margin: 13px 30px;
+  align-items: center;
+  letter-spacing: 2px;
+}
 body .body .body-carousel .body-carousel-nav {
   width: 180px;
   height: 420px;
@@ -113,18 +127,15 @@ body .body .body-carousel .body-carousel-nav .body-carousel-nav-list li .body-ca
 body .body .body-carousel .body-carousel-nav .body-carousel-nav-list li .body-carousel-nav-img2 {
   display: none;
 }
-body .body .body-carousel li:hover {
+body .body .body-carousel .body-carousel-nav .body-carousel-nav-list li:hover {
   background-color: #60646d;
 }
-body .body .body-carousel li:hover .body-carousel-nav-img1 {
+body .body .body-carousel .body-carousel-nav .body-carousel-nav-list li:hover .body-carousel-nav-img1 {
   display: none;
 }
-body .body .body-carousel li:hover .body-carousel-nav-img2 {
+body .body .body-carousel .body-carousel-nav .body-carousel-nav-list li:hover .body-carousel-nav-img2 {
   display: inline-block;
   margin-left: 41px;
-}
-body .body .body-carousel .body-carousel-nav:hover + .body-carousel-nav2 {
-  display: inline-block;
 }
 body .body .body-content-container1 {
   width: 100%;
